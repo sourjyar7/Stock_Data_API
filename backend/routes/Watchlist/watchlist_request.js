@@ -40,7 +40,7 @@ router.patch('/add',(req,resp)=>{
     resp.send({msg:"error"});
 })
 //Deleting from watchlist
-router.post('/add',(req,resp)=>{
+router.delete('/delete',(req,resp)=>{
   if(req.body.username != null && req.body.password != null){
     let condition={
         username: req.body.username,
