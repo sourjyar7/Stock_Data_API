@@ -1,4 +1,4 @@
-# Still under development 
+# A few endpoints of this API have been deprecated . Checkout the backend folder for the code 
 ## Stock_Data_API
 A REST API that allows user to query real time data on financial instruments from the National Stock Exchange and build a watchlist.
   
